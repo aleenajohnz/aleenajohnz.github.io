@@ -1,2 +1,3 @@
-# aleenajohnz.github.io
- My Data Analyst Portfolio
+# Visualisations
+
+This folder contains the charts and dashboard created during the Python analysis.
