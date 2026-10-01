@@ -172,29 +172,29 @@
         ========================= */
 
         .about-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
-        }
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
-        .about-card {
-            background: #dff3e3;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-            text-align: center;
-        }
+.about-card {
+    background: #dff3e3;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
 
-        .about-card h3 {
-            color: #345995;
-            margin-bottom: 15px;
-            font-size: 24px;
-        }
+.about-card p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
 
-        .about-card p {
-            color: #555;
-            font-size: 16px;
-        }
+.about-card p:last-child {
+    margin-bottom: 0;
+}
+        
 
         /* =========================
            SKILLS
